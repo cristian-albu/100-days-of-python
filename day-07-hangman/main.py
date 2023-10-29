@@ -1,25 +1,47 @@
 import random
-word_list = ['professor', 'worker', 'wizard']
 
 
+word_list = ['Eagle', 'Bear', 'Elephant']
+game_word = random.choice(word_list).lower()
+lifes = len(game_word) - 1
+game_over = False
+display_word = []
 
-game_word = random.choice(word_list)
+for n in range(len(game_word)):
+    display_word.append("_")
 
+def check_answer(answer):
+    at_least_one = False
+    for n in range(len(game_word)):
+        if answer == game_word[n]:
+            display_word[n] = answer
+            at_least_one = True
+    return at_least_one
 
-print(game_word)
+def check_winner():
+    if "_" not in display_word:
+        return True
+    else:
+        return False
 
-def build_hidden_word(word, tip_number):
-    word_arr = list(word)
-    count = len(word) - tip_number
-    
-    while count > 0:
-        random_choice = random.choice(word_arr)
-        if random_choice != '_':
-            index = word_arr.index(random_choice)
-            word_arr[index] = '_'
-            count -= 1
-    return "".join(word_arr)
+print("Let's play hangman. ")
 
-    
+while game_over == False and lifes > 0:
+    is_winner = check_winner()
 
-print(build_hidden_word('Anaconda', 2))
+    if is_winner:
+        print("Congrats! You've won!")
+        game_over = True
+    else:
+        print(display_word)
+        answer = input('Write a letter: ').lower()
+
+        if len(answer) == 1:
+            result = check_answer(answer)
+            if result == True:
+                print('Correct')
+            else:
+                lifes -= 1
+                print(f"Wrong. You have {lifes} lifes left")
+        else:
+            print("You must write 1 single letter")
