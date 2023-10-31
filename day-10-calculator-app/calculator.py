@@ -11,14 +11,15 @@ def divide(a, b):
     return a / b
 
 def determine_operation(text):
-    if text == "+":
-        return add
-    elif text == "-":
-        return subtract
-    elif text == '*':
-        return multiply
-    elif text == '/':
-        return divide
+    operations = {
+        "+": add,
+        "-": subtract,
+        "*": multiply,
+        "/": divide,
+    }
+
+    if text in operations:
+        return operations[text]
     else:
         redo = input('Please enter a valid operator: ')
         return determine_operation(redo)
