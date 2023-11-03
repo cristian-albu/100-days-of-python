@@ -6,22 +6,22 @@ Following this course on Udemy:
 The Complete Python Pro Bootcamp for 2023
 Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
 
--   [x] Day 1
--   [x] Day 2
--   [x] Day 3
--   [x] Day 4
--   [x] Day 5
--   [x] Day 6
--   [x] Day 7
--   [x] Day 8
--   [x] Day 9
--   [x] Day 10
--   [x] Day 11
--   [x] Day 12
--   [x] Day 13
--   [x] Day 14
--   [x] Day 15
--   [ ] Day 16
+-   [x] Day 1 - Variables
+-   [x] Day 2 - Data types
+-   [x] Day 3 - Control flow
+-   [x] Day 4 - Randomization and lists
+-   [x] Day 5 - Loops
+-   [x] Day 6 - Functions
+-   [x] Day 7 - Hangman
+-   [x] Day 8 - Function parameters
+-   [x] Day 9 - Dictionaries and nesting
+-   [x] Day 10 - Basic calculator
+-   [x] Day 11 - Blackjack
+-   [x] Day 12 - Number guessing game
+-   [x] Day 13 - Debugging
+-   [x] Day 14 - Higher/Lower
+-   [x] Day 15 - Setup
+-   [x] Day 16 - OOP basics
 -   [ ] Day 17
 -   [ ] Day 18
 -   [ ] Day 19
