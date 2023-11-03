@@ -21,7 +21,7 @@ def guess_number():
         return False
 
 print("I'm thinking of a number between 1 and 100")
-number = random.choice(range(1, 101))
+number = random.randint(1, 100)
 lives = 5
 difficulty = init_game()
 
@@ -37,7 +37,8 @@ while lives > 0:
     else:
         lives -= 1
         
-
+if lives == 0:
+    print('You lost')
 
 
 
