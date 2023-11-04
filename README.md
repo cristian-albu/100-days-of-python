@@ -22,7 +22,7 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 -   [x] Day 14 - Higher/Lower
 -   [x] Day 15 - Setup
 -   [x] Day 16 - OOP basics
--   [ ] Day 17
+-   [x] Day 17 - Quiz game
 -   [ ] Day 18
 -   [ ] Day 19
 -   [ ] Day 20
