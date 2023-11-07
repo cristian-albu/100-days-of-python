@@ -23,9 +23,9 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 -   [x] Day 15 - Setup
 -   [x] Day 16 - OOP basics
 -   [x] Day 17 - Quiz game
--   [ ] Day 18
--   [ ] Day 19
--   [ ] Day 20
+-   [x] Day 18 - GUI and the turtle module
+-   [x] Day 19 - Instances and listeners with the turtle racing game
+-   [x] Day 20 - Snake part 1
 -   [ ] Day 21
 -   [ ] Day 22
 -   [ ] Day 23
