@@ -26,7 +26,7 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 -   [x] Day 18 - GUI and the turtle module
 -   [x] Day 19 - Instances and listeners with the turtle racing game
 -   [x] Day 20 - Snake part 1
--   [ ] Day 21
+-   [x] Day 21 - Snake part 2 and inheritance
 -   [ ] Day 22
 -   [ ] Day 23
 -   [ ] Day 24
